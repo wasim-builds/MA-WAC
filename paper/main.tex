@@ -183,7 +183,7 @@ To rigorously validate MA-WAC, we clone expert policies directly from real human
 \subsection{Datasets and Environments}
 We utilize the ETH and UCY Pedestrian Trajectory Datasets, converting the raw trajectory coordinates into semantic map observations. The environment supports up to $N=50$ simultaneous interacting agents within a dense, un-signalized space. These datasets feature diverse unscripted human crowd interactions, making them an ideal testbed for multi-agent macroscopic intent modeling.
 
-\begin{table}[h]
+\begin{table*}[t]
 \centering
 \caption{ETH/UCY Pedestrian Dataset Statistics}
 \label{tab:dataset}
@@ -198,7 +198,7 @@ UCY-Zara2 & 204 & 5,400 & 16.3 & Shopping Street \\
 UCY-Univ & 434 & 3,200 & 25.4 & Dense Walkway \\
 \bottomrule
 \end{tabular}
-\end{table}
+\end{table*}
 
 \begin{algorithm}[h]
 \caption{MA-WAC Roll-back Auditing Loop}
