@@ -12,6 +12,7 @@
 \usepackage{algorithmicx}
 \usepackage{algpseudocode}
 \usepackage{listings}
+\usepackage[colorlinks=true, citecolor=blue, linkcolor=blue, urlcolor=blue]{hyperref}
 
 \begin{document}
 
@@ -48,8 +49,6 @@ Our previous work, Continuous Macroscopic Action Cloning (CMAC) \cite{cmac}, suc
 Building upon this, our architecture leverages recent developments in latent space modeling and Proximal Policy Optimization (PPO). Standard cloning techniques often encounter the covariate shift problem, where small errors in early predictions accumulate, pushing the agent into states completely unseen during training. By introducing a shared latent space proxy, we enable the system to anticipate these compounding errors in a lower-dimensional space, effectively mitigating catastrophic failures before they manifest in physical execution.
 
 \section{Related Work}\label{sec2}
-\cite{ref_0, ref_1, ref_2, ref_3, ref_4, ref_5, ref_6, ref_7, ref_8, ref_9, ref_10, ref_11, ref_12, ref_13, ref_14, ref_15, ref_16, ref_17, ref_18, ref_19, ref_20, ref_21}
-
 An extensive analysis of recent literature reveals dominant trends in agentic systems and world modeling that motivate our architecture.
 
 \subsection{World Modeling for Interactive Environments}
